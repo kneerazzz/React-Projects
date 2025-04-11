@@ -44,7 +44,7 @@ function Quote() {
     }
     const tweetQuote = () => {
         const tweetText = encodeURIComponent(`${quote} -${author}`);
-        const tweetUrl = `https://twitter.com/intent/tweet?tweet-${tweetText}`;
+        const tweetUrl = `https://x.com/intent/tweet?tweet-${tweetText}`;
         window.open(tweetUrl , '_blank');
     }
   return (
